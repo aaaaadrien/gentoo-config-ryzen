@@ -1,0 +1,97 @@
+# Kernel
+#<sys-kernel/calculate-sources-5.4.15
+<sys-kernel/gentoo-sources-5.4.15
+# Support de la carte NVidia Optimus
+#x11-misc/primus **
+#<x11-drivers/nvidia-drivers-411.00
+
+# Fortinet
+# move net-misc/networkmanager-fortisslvpn net-vpn/networkmanager-fortisslvpn
+net-vpn/networkmanager-fortisslvpn
+net-vpn/openfortivpn
+
+# Clementine dernière version
+#=media-sound/clementine-9999 **
+
+# Vivaldi
+www-client/vivaldi-snapshot
+
+# Telegram
+net-im/telegram-desktop-bin
+
+# Mixxx
+media-sound/mixxx
+
+# Steam
+games-util/steam-launcher
+
+# VirtualBox Récent++
+app-emulation/virtualbox-modules ~amd64
+app-emulation/virtualbox-additions ~amd64
+app-emulation/virtualbox ~amd64
+app-emulation/virtualbox-extpack-oracle ~amd64
+dev-util/kbuild ~amd64
+
+# Wine
+#app-emulation/wine-vanilla
+#app-emulation/wine-mono
+
+# Skype
+net-im/skypeforlinux
+
+# Youtube DL
+net-misc/youtube-dl
+
+# KSH
+app-shells/ksh
+
+# Opera
+www-client/opera
+
+# nmon
+sys-process/nmon
+
+# Glances
+sys-process/glances
+
+# nwipe
+app-crypt/nwipe
+
+# Guake
+x11-terms/guake
+
+# conky (récent car 1.0.9 se lance plus)
+<app-admin/conky-1.10.7
+
+# Nero
+app-cdr/nero
+
+# OBS
+media-video/obs-studio
+
+#Teamspeak
+media-sound/teamspeak-client
+
+# KDENLIVE
+<kde-apps/kdenlive-19.10
+# FREI0R => 1.5.0 = memory leak
+# media-plugins/frei0r-plugins
+# < mlt 6.10.0 = memory leak + pb son
+# media-libs/mlt
+=dev-cpp/rttr-0.9.6 ~amd64
+=media-libs/mlt-6.14.0 ~amd64
+
+
+# neofetch
+app-misc/neofetch
+
+# Spotify
+media-sound/spotify
+
+# Remmina
+net-misc/remmina
+net-misc/freerdp
+
+# ZZZ TEST
+=media-libs/mesa-18.3.0
+#=app-portage/pamageli-9999 **
