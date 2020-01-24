@@ -37,10 +37,10 @@ then
         echo "On sauvegarde les fichiers perso env ..."
         if [ -d $chemin ]
         then
-                cp "/$chemin/$fic" "$chemin/$fic"
+                cp "/$chemin/$fic" "$chemin/"
         else
                 mkdir -p "$chemin"
-                cp "/$chemin/$fic" "$chemin/$fic"
+                cp "/$chemin/$fic" "$chemin/"
         fi
 fi
 
