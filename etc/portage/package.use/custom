@@ -1,0 +1,104 @@
+# GUAKE
+x11-libs/vte python
+
+# OPTIMUS
+#x11-base/xorg-drivers video_cards_nvidia
+#x11-misc/virtualgl abi_x86_32
+#x11-misc/primus abi_x86_32
+#x11-drivers/nvidia-drivers compat 
+#dev-libs/jansson abi_x86_32
+
+# KERNEL
+sys-kernel/calculate-sources -minimal
+
+# Firefox
+#www-client/firefox pulseaudio -bindist
+
+# Chromium
+sys-libs/zlib minizip
+net-libs/nodejs inspector
+
+# LAMP
+app-eselect/eselect-php apache2
+dev-lang/php  apache2 mysql cgi pam ssl xml mysqli pdo sqlite xmlreader xmlwriter -spell
+
+# PERL
+dev-lang/perl ithreads
+
+# COMPRESSION MULTITHREAD
+app-arch/lbzip2 symlink
+app-arch/pigz symlink
+
+# rsyslog
+app-admin/rsyslog openssl
+
+# REMMINA
+net-misc/remmina rdp vnc
+
+# THUNDERBIRD
+# mail-client/thunderbird -linguas_* linguas_fr
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete
+
+
+# SCREEN
+app-misc/screen multiuser
+
+# SUDO
+app-admin/sudo offensive
+
+#RPM
+#dev-lang/python sqlite
+#dev-libs/libxml2 python
+#app-arch/rpm lua python
+
+#LANGUES
+#app-text/hunspell -linguas_* linguas_fr
+#app-text/aspell -linguas_* linguas_fr
+
+#RKHUNTER
+sys-process/lsof rpc
+
+#VMWARE
+app-emulation/vmware-modules vmci vsock
+
+# GCC
+#sys-devel/gcc gcj
+
+# NVENC (Encodage NVidia) CHROMIUM (Chromium) et xcb (peek)
+#media-video/ffmpeg nvenc chromium xcb
+media-video/ffmpeg chromium xcb
+
+#CLEMENTINE QT5
+media-libs/libmygpo-qt qt5
+
+# Kdenlive
+media-libs/mlt melt kdenlive ffmpeg frei0r
+
+# cool-retro-term
+dev-qt/qtdeclarative localstorage
+
+# THEME ARC POUR MATE
+x11-themes/arc-theme mate
+
+# OBS + nvenc
+#media-video/obs-studio nvenc
+
+# QtCreator
+dev-qt/qt-creator designer
+
+# Neofetch
+www-client/w3m imlib
+
+# Mixxx
+media-sound/mixxx shout
+
+# GStreamer 
+# pb d'écran rose avec MP4 et Totem à cause de vaapi
+media-plugins/gst-plugins-meta -vaapi
+
+# GNOME TEST
+gnome-base/gnome-shell -bluetooth
+gnome-base/gnome-core-apps -bluetooth
+
+
