@@ -31,16 +31,15 @@ done
 
 
 chemin="etc/portage/env"
-fic="*"
 if [ -d "/$chemin" ]
 then
         echo "On sauvegarde les fichiers perso env ..."
         if [ -d $chemin ]
         then
-                cp "/$chemin/$fic" "$chemin/"
+                cp "/$chemin/*" "$chemin/"
         else
                 mkdir -p "$chemin"
-                cp "/$chemin/$fic" "$chemin/"
+                cp "/$chemin/*" "$chemin/"
         fi
 fi
 
