@@ -36,10 +36,10 @@ then
         echo "On sauvegarde les fichiers perso env ..."
         if [ -d $chemin ]
         then
-                cp "/$chemin/*" "$chemin/"
+                rsync -a --delete "/$chemin/" "$chemin/"
         else
                 mkdir -p "$chemin"
-                cp "/$chemin/*" "$chemin/"
+                rsync -a --delete "/$chemin/" "$chemin/"
         fi
 fi
 
