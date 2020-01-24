@@ -15,16 +15,16 @@ heure=$(date +"%H:%M:%S")
 for fic in "use" "accept_keywords" "mask" "unmask" "env"
 do
 	chemin="etc/portage/package.$fic/"
-	if [ -f "/$chemin/custom" ]
+	if [ -d "/$chemin" ]
 	then
 		echo "On sauvegarde le fichier package.$fic ..."
 		
 		if [ -d $chemin ]
 		then
-			cp "/$chemin/custom" "$chemin/custom"
+			rsync -a --delete "/$chemin/" "$chemin/"
 		else
 			mkdir -p "$chemin"
-			cp "/$chemin/custom" "$chemin/custom"
+			rsync -a --delete "/$chemin/" "$chemin/"
 		fi
 	fi
 done
