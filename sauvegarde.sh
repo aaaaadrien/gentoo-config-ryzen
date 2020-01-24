@@ -32,7 +32,7 @@ done
 
 chemin="etc/portage/env"
 fic="*"
-if [ -f "/$chemin" ]
+if [ -d "/$chemin" ]
 then
         echo "On sauvegarde les fichiers perso env ..."
         if [ -d $chemin ]
