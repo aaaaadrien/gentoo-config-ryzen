@@ -9,7 +9,6 @@ x11-libs/vte python
 #dev-libs/jansson abi_x86_32
 
 # KERNEL
-sys-kernel/calculate-sources -minimal
 
 # Firefox
 #www-client/firefox pulseaudio -bindist
@@ -40,6 +39,8 @@ net-misc/remmina rdp vnc
 media-libs/libvpx postproc
 dev-db/sqlite secure-delete
 
+# FFMPEG
+# media-video/ffmpeg amr libaom openal opengl openh264 openssl opus speex srt theora v4l vdpau vorbis vpx wavpack webp x264 x265 xvid
 
 # SCREEN
 app-misc/screen multiuser
@@ -92,6 +93,12 @@ www-client/w3m imlib
 
 # Mixxx
 media-sound/mixxx shout
+dev-qt/qtscript scripttools
+
+# Teamspeak
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+dev-qt/qtgui accessibility jumbo-build
 
 # GStreamer 
 # pb d'écran rose avec MP4 et Totem à cause de vaapi

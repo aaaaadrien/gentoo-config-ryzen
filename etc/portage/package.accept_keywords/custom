@@ -92,6 +92,9 @@ media-sound/spotify
 net-misc/remmina
 net-misc/freerdp
 
+# bpmdetect
+media-sound/bpmdetect
+
 # ZZZ TEST
 =media-libs/mesa-18.3.0
 #=app-portage/pamageli-9999 **

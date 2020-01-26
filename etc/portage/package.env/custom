@@ -1,2 +1,3 @@
 net-libs/webkit-gtk make-j8.conf
+dev-qt/qtwebengine make-j8.conf
 www-client/chromium chromium.conf
