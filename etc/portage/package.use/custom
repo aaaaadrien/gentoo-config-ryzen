@@ -40,7 +40,7 @@ media-libs/libvpx postproc
 dev-db/sqlite secure-delete
 
 # FFMPEG
-# media-video/ffmpeg amr libaom openal opengl openh264 openssl opus speex srt theora v4l vdpau vorbis vpx wavpack webp x264 x265 xvid
+media-video/ffmpeg vorbis vpx x264 x265 xvid
 
 # SCREEN
 app-misc/screen multiuser

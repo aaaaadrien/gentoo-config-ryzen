@@ -11,7 +11,7 @@ net-vpn/networkmanager-fortisslvpn
 net-vpn/openfortivpn
 
 # Clementine dernière version
-#=media-sound/clementine-9999 **
+<media-sound/clementine-1.4.99
 
 # Vivaldi
 www-client/vivaldi-snapshot
