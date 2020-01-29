@@ -45,6 +45,7 @@ kde-apps/kdenlive
 mail-client/thunderbird
 mate-extra/mate-calc
 media-fonts/droid
+media-fonts/libertine
 media-fonts/msoffice-fonts
 media-gfx/eog
 media-gfx/flameshot
@@ -76,6 +77,7 @@ media-video/smplayer
 net-analyzer/iftop
 net-analyzer/nmap
 net-analyzer/speedtest-cli
+net-fs/nfs-utils
 net-im/skypeforlinux
 net-im/telegram-desktop-bin
 net-misc/anydesk
