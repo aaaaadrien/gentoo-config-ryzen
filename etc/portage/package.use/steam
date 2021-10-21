@@ -89,7 +89,8 @@ x11-proto/glproto abi_x86_32
 x11-proto/inputproto abi_x86_32
 x11-proto/kbproto abi_x86_32
 x11-proto/presentproto abi_x86_32
-x11-proto/xcb-proto abi_x86_32
+# move x11-proto/xcb-proto x11-base/xcb-proto
+x11-base/xcb-proto abi_x86_32
 x11-proto/xextproto abi_x86_32
 x11-proto/xf86bigfontproto abi_x86_32
 x11-proto/xf86driproto abi_x86_32
@@ -108,3 +109,15 @@ sys-libs/ncurses -gpm
 
 # Divers
 dev-util/pkgconf abi_x86_32
+net-libs/nghttp2 abi_x86_32
+
+virtual/rust abi_x86_32
+dev-lang/rust abi_x86_32
+
+# required by x11-libs/pango-1.48.7-r1::gentoo
+# required by media-gfx/imagemagick-7.1.0.5::gentoo[pango]
+# required by virtual/imagemagick-tools-0::gentoo
+# required by media-video/peek-1.4.0::adrien-overlay
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.11.0-r1 harfbuzz

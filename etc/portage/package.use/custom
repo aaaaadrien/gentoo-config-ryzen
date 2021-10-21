@@ -83,7 +83,7 @@ dev-qt/qtdeclarative localstorage
 x11-themes/arc-theme mate
 
 # OBS + nvenc
-#media-video/obs-studio nvenc
+media-video/obs-studio browser
 
 # QtCreator
 dev-qt/qt-creator designer
@@ -92,13 +92,16 @@ dev-qt/qt-creator designer
 www-client/w3m imlib
 
 # Mixxx
-media-sound/mixxx shout
+media-sound/mixxx shout hid
 dev-qt/qtscript scripttools
 
 # Teamspeak
-dev-qt/qtwebengine widgets
+dev-qt/qtwebengine widgets jumbo-build
 dev-qt/qtwebchannel qml
-dev-qt/qtgui accessibility jumbo-build
+dev-qt/qtgui accessibility
+media-libs/libglvnd abi_x86_32
+dev-qt/qtwebengine geolocation
+
 
 # GStreamer 
 # pb d'écran rose avec MP4 et Totem à cause de vaapi
@@ -108,4 +111,26 @@ media-plugins/gst-plugins-meta -vaapi
 gnome-base/gnome-shell -bluetooth
 gnome-base/gnome-core-apps -bluetooth
 
+# WINE
+media-libs/libsdl2 haptic gles2
+
+# abcde 
+sys-apps/file -python
+
+# 32bits zstd
+app-arch/zstd abi_x86_32
+
+# Flatpak
+dev-util/ostree curl
+
+#kdenlive
+dev-util/wayland-scanner abi_x86_32
+# Brasero
+dev-util/sysprof-capture abi_x86_32
+
+
+# TMP OBS
+media-video/obs-studio -python_single_target_python3_7
+>=dev-libs/libgdata-0.18.1 vala
+>=dev-libs/libdbusmenu-16.04.0-r1 gtk3
 
