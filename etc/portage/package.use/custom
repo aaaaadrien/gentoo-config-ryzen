@@ -128,9 +128,11 @@ dev-util/wayland-scanner abi_x86_32
 # Brasero
 dev-util/sysprof-capture abi_x86_32
 
+# virt-viewer
+app-emulation/virt-viewer -libvirt
 
 # TMP OBS
-media-video/obs-studio -python_single_target_python3_7
+media-video/obs-studio browser v4l
 >=dev-libs/libgdata-0.18.1 vala
 >=dev-libs/libdbusmenu-16.04.0-r1 gtk3
 

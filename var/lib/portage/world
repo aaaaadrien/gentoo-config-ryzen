@@ -15,6 +15,7 @@ app-cdr/brasero
 app-editors/gedit
 app-editors/nano
 app-editors/vim
+app-emulation/virt-viewer
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
@@ -119,6 +120,7 @@ www-client/opera
 x11-base/xorg-drivers
 x11-base/xorg-server
 x11-base/xorg-x11
+x11-misc/lightdm
 x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
 x11-themes/papirus-icon-theme
