@@ -97,11 +97,6 @@ dev-qt/qtscript scripttools
 
 # Teamspeak
 dev-qt/qtwebengine widgets jumbo-build
-dev-qt/qtwebchannel qml
-dev-qt/qtgui accessibility
-media-libs/libglvnd abi_x86_32
-dev-qt/qtwebengine geolocation
-
 
 # GStreamer 
 # pb d'écran rose avec MP4 et Totem à cause de vaapi
@@ -131,7 +126,12 @@ dev-util/sysprof-capture abi_x86_32
 # virt-viewer
 app-emulation/virt-viewer -libvirt
 
-# TMP OBS
+# WINE 
+
+
+
+
+# OBS
 media-video/obs-studio browser v4l
 >=dev-libs/libgdata-0.18.1 vala
 >=dev-libs/libdbusmenu-16.04.0-r1 gtk3

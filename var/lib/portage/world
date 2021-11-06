@@ -68,8 +68,9 @@ media-sound/lame
 media-sound/mixxx
 media-sound/pavucontrol
 media-sound/pulseaudio
+media-sound/soundconverter
 media-sound/sox
-media-sound/teamspeak-client
+media-sound/spotify
 media-sound/vorbisgain
 media-video/molotov
 media-video/mplayer
@@ -91,6 +92,7 @@ net-misc/networkmanager
 net-misc/remmina
 net-misc/youtube-dl
 net-vpn/openfortivpn
+sci-calculators/galculator
 sys-apps/etcher
 sys-apps/flatpak
 sys-apps/gnome-disk-utility
@@ -121,6 +123,7 @@ x11-base/xorg-drivers
 x11-base/xorg-server
 x11-base/xorg-x11
 x11-misc/lightdm
+x11-terms/guake
 x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
 x11-themes/papirus-icon-theme
