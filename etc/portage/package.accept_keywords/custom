@@ -13,17 +13,18 @@ net-vpn/openfortivpn
 # Clementine dernière version
 <media-sound/clementine-1.4.99
 
-# Vivaldi (Dans profile)
-#www-client/vivaldi-snapshot
-
 # Telegram
 net-im/telegram-desktop-bin
+
+# Discord
+net-im/discord-bin
 
 # Mixxx
 media-sound/mixxx
 
 # Steam
 games-util/steam-launcher
+games-util/game-device-udev-rules
 
 # VirtualBox Récent++
 app-emulation/virtualbox-modules ~amd64
@@ -32,9 +33,6 @@ app-emulation/virtualbox ~amd64
 app-emulation/virtualbox-extpack-oracle ~amd64
 dev-util/kbuild ~amd64
 
-# Wine
-#app-emulation/wine-vanilla
-#app-emulation/wine-mono
 
 # Skype
 net-im/skypeforlinux
@@ -50,6 +48,9 @@ www-client/opera
 
 # nmon
 sys-process/nmon
+
+# radeontop
+app-misc/radeontop
 
 # Glances
 sys-process/glances
