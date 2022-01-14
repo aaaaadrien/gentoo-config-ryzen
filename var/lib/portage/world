@@ -29,6 +29,7 @@ app-misc/neofetch
 app-misc/radeontop
 app-misc/screen
 app-office/libreoffice
+app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/gentoolkit
 app-portage/portage-utils
@@ -50,6 +51,7 @@ gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 gnome-extra/nm-applet
 kde-apps/kdenlive
+kde-plasma/breeze-gtk
 mail-client/thunderbird
 mate-extra/mate-calc
 media-fonts/droid
@@ -79,6 +81,7 @@ media-sound/spotify
 media-sound/strawberry
 media-sound/vorbisgain
 media-video/cheese
+media-video/ffmpegthumbnailer
 media-video/mediainfo
 media-video/molotov
 media-video/mplayer

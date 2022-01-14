@@ -82,6 +82,8 @@ media-libs/libmygpo-qt qt5
 media-libs/mlt melt kdenlive ffmpeg frei0r
 >=media-libs/opencv-4.5.2-r5 contribdnn contrib
 
+# Breeze-gtk
+kde-frameworks/kitemmodels qml
 
 # cool-retro-term
 dev-qt/qtdeclarative localstorage
