@@ -78,6 +78,9 @@ gnome-base/gvfs samba mtp nfs
 #CLEMENTINE QT5
 media-libs/libmygpo-qt qt5
 
+# Keepass avec Browser
+app-admin/keepassxc browser autotype
+
 # Kdenlive
 media-libs/mlt melt kdenlive ffmpeg frei0r
 >=media-libs/opencv-4.5.2-r5 contribdnn contrib
@@ -144,6 +147,9 @@ media-video/obs-studio browser v4l
 >=dev-libs/libgdata-0.18.1 vala
 >=dev-libs/libdbusmenu-16.04.0-r1 gtk3
 
+#simple-scan
+x11-misc/colord vala
+
 
 
 # Divers 
@@ -164,3 +170,5 @@ media-video/obs-studio browser v4l
 # required by net-misc/openssh-8.6_p1-r2::gentoo
 # required by @__auto_slot_operator_replace_installed__ (argument)
 >=sys-libs/libxcrypt-4.4.25 abi_x86_32
+
+>=media-sound/lame-3.100-r3 abi_x86_32

@@ -1,5 +1,4 @@
 # Kernel
-#<sys-kernel/calculate-sources-5.4.15
 <sys-kernel/gentoo-sources-5.5
 # Support de la carte NVidia Optimus
 #x11-misc/primus **
@@ -20,7 +19,7 @@ net-im/telegram-desktop-bin
 net-im/discord-bin
 
 # Mixxx
-media-sound/mixxx
+#media-sound/mixxx
 
 # Steam
 games-util/steam-launcher
@@ -96,9 +95,22 @@ net-misc/freerdp
 # bpmdetect
 media-sound/bpmdetect
 
+# Anydesk
+net-misc/anydesk
+
+# vbam
+games-emulation/vbam
+
+# peek
+media-video/peek
+
+# flameshot
+media-gfx/flameshot
+
 # wgetpaste
 app-text/wgetpaste
 
 # ZZZ TEST
 =media-libs/mesa-18.3.0
 #=app-portage/pamageli-9999 **
+#<sys-apps/flatpak-1.13
