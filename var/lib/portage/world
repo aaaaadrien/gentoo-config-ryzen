@@ -43,6 +43,7 @@ dev-util/scons
 dev-vcs/git
 games-emulation/dosbox
 games-emulation/vbam
+gnome-base/dconf-editor
 gnome-base/gdm
 gnome-base/gnome-light
 gnome-extra/gnome-shell-extension-appindicator
