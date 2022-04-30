@@ -110,6 +110,12 @@ media-gfx/flameshot
 # wgetpaste
 app-text/wgetpaste
 
+# lutris
+games-util/lutris
+media-libs/vulkan-loader
+dev-util/vulkan-headers
+dev-util/vulkan-tools
+
 # ZZZ TEST
 =media-libs/mesa-18.3.0
 #=app-portage/pamageli-9999 **

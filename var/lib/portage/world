@@ -43,11 +43,13 @@ dev-util/scons
 dev-vcs/git
 games-emulation/dosbox
 games-emulation/vbam
+games-util/lutris
 gnome-base/dconf-editor
 gnome-base/gdm
 gnome-base/gnome-light
 gnome-extra/gnome-shell-extension-appindicator
 gnome-extra/gnome-shell-extension-dash-to-dock
+gnome-extra/gnome-shell-extension-dash-to-panel
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 gnome-extra/nemo
@@ -67,6 +69,8 @@ media-gfx/gimp
 media-gfx/gnome-font-viewer
 media-gfx/simple-scan
 media-libs/alsa-lib
+media-libs/mesa
+media-libs/vulkan-loader
 media-plugins/gst-plugins-libav
 media-plugins/gst-plugins-openh264
 media-sound/abcde
@@ -123,7 +127,7 @@ sys-apps/kexec-tools
 sys-apps/lm-sensors
 sys-apps/pciutils
 sys-apps/pv
-sys-apps/rosa-imagewriter
+sys-apps/sg3_utils
 sys-apps/smartmontools
 sys-apps/usbutils
 sys-block/gparted
@@ -145,6 +149,7 @@ sys-process/nmon
 www-client/chromium
 www-client/epiphany
 www-client/firefox
+www-client/google-chrome
 www-client/links
 www-client/opera
 www-client/vivaldi
@@ -154,6 +159,7 @@ x11-base/xorg-x11
 x11-misc/alacarte
 x11-misc/lightdm
 x11-misc/redshift
+x11-misc/x11vnc
 x11-terms/guake
 x11-themes/QGnomePlatform
 x11-themes/adwaita-qt

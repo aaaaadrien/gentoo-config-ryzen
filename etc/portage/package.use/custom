@@ -42,8 +42,8 @@ dev-db/sqlite secure-delete
 # FFMPEG
 # NVENC (Encodage NVidia) CHROMIUM (Chromium) et xcb (peek) et VAAPI HW AMD
 media-video/ffmpeg vorbis vpx x264 x265 xvid chromium xcb vaapi
-## VAAPI
-media-libs/mesa vaapi
+## VAAPI + VULKAN
+media-libs/mesa vaapi vulkan
 
 >=x11-libs/libva-2.13.0-r1 abi_x86_32
 
@@ -95,7 +95,7 @@ dev-qt/qtdeclarative localstorage
 x11-themes/arc-theme mate
 
 # OBS + nvenc
-media-video/obs-studio browser
+media-video/obs-studio browser pipewire
 
 # QtCreator
 dev-qt/qt-creator designer
@@ -150,7 +150,9 @@ media-video/obs-studio browser v4l
 #simple-scan
 x11-misc/colord vala
 
-
+# lutris
+media-libs/vulkan-loader abi_x86_32
+dev-util/vulkan-tools abi_x86_32
 
 # Divers 
 # required by media-libs/mesa-21.2.5::gentoo
