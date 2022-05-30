@@ -15,6 +15,7 @@ app-arch/unrar
 app-arch/unzip
 app-cdr/brasero
 app-cdr/ccd2iso
+app-crypt/nwipe
 app-editors/gedit
 app-editors/nano
 app-editors/vim
@@ -26,7 +27,6 @@ app-emulation/virtualbox-modules
 app-emulation/wine-vanilla
 app-eselect/eselect-repository
 app-misc/neofetch
-app-misc/radeontop
 app-misc/screen
 app-office/libreoffice
 app-portage/cpuid2cpuflags
@@ -52,6 +52,7 @@ gnome-extra/gnome-shell-extension-dash-to-dock
 gnome-extra/gnome-shell-extension-dash-to-panel
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
+gnome-extra/gnome-weather
 gnome-extra/nemo
 gnome-extra/nemo-fileroller
 gnome-extra/nm-applet
@@ -99,6 +100,7 @@ media-video/obs-studio
 media-video/peek
 media-video/smplayer
 net-analyzer/iftop
+net-analyzer/netcat
 net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-fs/nfs-utils
@@ -133,6 +135,7 @@ sys-apps/usbutils
 sys-block/gparted
 sys-boot/grub
 sys-fs/dosfstools
+sys-fs/exfatprogs
 sys-fs/f2fs-tools
 sys-fs/lvm2
 sys-fs/ntfs3g
@@ -146,7 +149,6 @@ sys-process/bpytop
 sys-process/glances
 sys-process/htop
 sys-process/nmon
-www-client/chromium
 www-client/epiphany
 www-client/firefox
 www-client/google-chrome
@@ -160,6 +162,8 @@ x11-misc/alacarte
 x11-misc/lightdm
 x11-misc/redshift
 x11-misc/x11vnc
+x11-misc/xclip
+x11-misc/xdotool
 x11-terms/guake
 x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
