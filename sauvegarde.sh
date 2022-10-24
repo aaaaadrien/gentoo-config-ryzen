@@ -57,6 +57,21 @@ then
         fi
 fi
 
+
+chemin="etc/portage/repos.conf"
+if [ -d "/$chemin" ]
+then
+        echo "On sauvegarde les fichiers repos ..."
+        if [ -d $chemin ]
+        then
+                rsync -a --delete "/$chemin/" "$chemin/"
+        else
+                mkdir -p "$chemin"
+                rsync -a --delete "/$chemin/" "$chemin/"
+        fi
+fi
+
+
 chemin="var/lib/portage/"
 fic="world"
 if [ -f "/$chemin/$fic" ]

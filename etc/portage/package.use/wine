@@ -277,4 +277,5 @@
 # required by app-emulation/wine-vanilla-6.0.1::gentoo[usb]
 # required by wine-vanilla (argument)
 >=dev-libs/libusb-1.0.24-r2 abi_x86_32
+>=app-emulation/vkd3d-1.5 abi_x86_32
 

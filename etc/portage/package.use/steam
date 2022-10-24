@@ -132,3 +132,6 @@ dev-lang/rust abi_x86_32
 # required by net-fs/cifs-utils-6.13-r1::gentoo[acl]
 >=app-crypt/libmd-1.0.4 abi_x86_32
 
+>=sys-apps/systemd-utils-250.6 abi_x86_32
+>=media-libs/libpulse-16.0 abi_x86_32
+

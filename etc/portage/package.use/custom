@@ -45,7 +45,8 @@ media-video/ffmpeg vorbis vpx x264 x265 xvid chromium xcb vaapi
 ## VAAPI + VULKAN
 media-libs/mesa vaapi vulkan
 
->=x11-libs/libva-2.13.0-r1 abi_x86_32
+# move x11-libs/libva media-libs/libva
+>=media-libs/libva-2.13.0-r1 abi_x86_32
 
 
 # SCREEN
@@ -135,6 +136,9 @@ dev-util/wayland-scanner abi_x86_32
 # Brasero
 dev-util/sysprof-capture abi_x86_32
 
+# breeze-gtk
+kde-frameworks/kconfig qml
+
 # virt-viewer
 app-emulation/virt-viewer -libvirt
 
@@ -153,6 +157,9 @@ x11-misc/colord vala
 # lutris
 media-libs/vulkan-loader abi_x86_32
 dev-util/vulkan-tools abi_x86_32
+
+# cool-retro-term
+dev-qt/qtquickcontrols2 widgets
 
 # Divers 
 # required by media-libs/mesa-21.2.5::gentoo

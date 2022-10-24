@@ -97,6 +97,7 @@ media-sound/bpmdetect
 
 # Anydesk
 net-misc/anydesk
+x11-libs/gtkglext
 
 # vbam
 games-emulation/vbam
@@ -120,3 +121,4 @@ dev-util/vulkan-tools
 =media-libs/mesa-18.3.0
 #=app-portage/pamageli-9999 **
 #<sys-apps/flatpak-1.13
+gnome-extra/gnome-software
