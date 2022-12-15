@@ -6,7 +6,14 @@ sync-type = git
 sync-uri = https://github.com/aaaaadrien/adrien-overlay.git
 
 
-[wine]
-location = /var/db/repos/wine
+
+[steam-overlay]
+location = /var/db/repos/steam-overlay
 sync-type = git
-sync-uri = https://github.com/gentoo-mirror/wine.git
+sync-uri = https://github.com/gentoo-mirror/steam-overlay.git
+
+[librewolf]
+location = /var/db/repos/librewolf
+sync-type = git
+sync-uri = https://gitlab.com/librewolf-community/browser/gentoo.git
+

@@ -89,7 +89,6 @@ x11-proto/glproto abi_x86_32
 x11-proto/inputproto abi_x86_32
 x11-proto/kbproto abi_x86_32
 x11-proto/presentproto abi_x86_32
-# move x11-proto/xcb-proto x11-base/xcb-proto
 x11-base/xcb-proto abi_x86_32
 x11-proto/xextproto abi_x86_32
 x11-proto/xf86bigfontproto abi_x86_32
@@ -100,27 +99,22 @@ x11-proto/xproto abi_x86_32
 
 # If not using systemd add this, otherwise chances are the libudev/udev will
 # be pulled as dependencies and eudev removed from your system.
-sys-fs/eudev abi_x86_32
+#sys-fs/eudev abi_x86_32
 
+
+# move x11-libs/libva media-libs/libva
+>=media-libs/libva-2.13.0-r1 abi_x86_32
 
 # Circular deps:
-sys-libs/ncurses -gpm
+#sys-libs/ncurses -gpm
 
 
 # Divers
-dev-util/pkgconf abi_x86_32
-net-libs/nghttp2 abi_x86_32
+#dev-util/pkgconf abi_x86_32
+#net-libs/nghttp2 abi_x86_32
 
 virtual/rust abi_x86_32
 dev-lang/rust abi_x86_32
-
-# required by x11-libs/pango-1.48.7-r1::gentoo
-# required by media-gfx/imagemagick-7.1.0.5::gentoo[pango]
-# required by virtual/imagemagick-tools-0::gentoo
-# required by media-video/peek-1.4.0::adrien-overlay
-# required by @selected
-# required by @world (argument)
->=media-libs/freetype-2.11.0-r1 harfbuzz
 
 # required by x11-libs/libXdmcp-1.1.3-r1::gentoo
 # required by games-util/steam-launcher-1.0.0.72::adrien-overlay[steamruntime]
@@ -133,5 +127,11 @@ dev-lang/rust abi_x86_32
 >=app-crypt/libmd-1.0.4 abi_x86_32
 
 >=sys-apps/systemd-utils-250.6 abi_x86_32
->=media-libs/libpulse-16.0 abi_x86_32
+#>=media-libs/libpulse-16.0 abi_x86_32
+
+>=sys-libs/pam-1.5.1_p20210622-r1 abi_x86_32
+#>=media-libs/libogg-1.3.5 abi_x86_32
+#>=media-libs/libvorbis-1.3.7 abi_x86_32
+#>=media-libs/opus-1.3.1-r2 abi_x86_32
+>=sys-libs/libcap-2.49-r1 abi_x86_32
 

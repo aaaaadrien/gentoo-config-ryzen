@@ -1,25 +1,14 @@
 # Kernel
-<sys-kernel/gentoo-sources-5.5
+#<sys-kernel/gentoo-sources-5.5
 # Support de la carte NVidia Optimus
 #x11-misc/primus **
 #<x11-drivers/nvidia-drivers-411.00
-
-# Fortinet
-# move net-misc/networkmanager-fortisslvpn net-vpn/networkmanager-fortisslvpn
-net-vpn/networkmanager-fortisslvpn
-net-vpn/openfortivpn
-
-# Clementine dernière version
-<media-sound/clementine-1.4.99
 
 # Telegram
 net-im/telegram-desktop-bin
 
 # Discord
 net-im/discord-bin
-
-# Mixxx
-#media-sound/mixxx
 
 # Steam
 games-util/steam-launcher
@@ -32,12 +21,15 @@ app-emulation/virtualbox ~amd64
 app-emulation/virtualbox-extpack-oracle ~amd64
 dev-util/kbuild ~amd64
 
+# Firefox Dernière version
+dev-libs/nss
+www-client/firefox
+
+# Librewolf
+www-client/librewolf
 
 # Skype
 net-im/skypeforlinux
-
-# Youtube DL
-net-misc/youtube-dl
 
 # KSH
 app-shells/ksh
@@ -60,27 +52,18 @@ app-crypt/nwipe
 # Guake
 x11-terms/guake
 
-# conky (récent car 1.0.9 se lance plus)
-<app-admin/conky-1.10.7
-
 # Nero
 app-cdr/nero
 
 # OBS
 media-video/obs-studio
 
-#Teamspeak
-media-sound/teamspeak-client
-
 # KDENLIVE
-<kde-apps/kdenlive-19.10
+#<kde-apps/kdenlive-19.10
 # FREI0R => 1.5.0 = memory leak
 # media-plugins/frei0r-plugins
 # < mlt 6.10.0 = memory leak + pb son
 # media-libs/mlt
-=dev-cpp/rttr-0.9.6 ~amd64
-=media-libs/mlt-6.14.0 ~amd64
-
 
 # neofetch
 app-misc/neofetch
@@ -99,9 +82,6 @@ media-sound/bpmdetect
 net-misc/anydesk
 x11-libs/gtkglext
 
-# vbam
-games-emulation/vbam
-
 # peek
 media-video/peek
 
@@ -111,14 +91,5 @@ media-gfx/flameshot
 # wgetpaste
 app-text/wgetpaste
 
-# lutris
-games-util/lutris
-media-libs/vulkan-loader
-dev-util/vulkan-headers
-dev-util/vulkan-tools
-
 # ZZZ TEST
-=media-libs/mesa-18.3.0
 #=app-portage/pamageli-9999 **
-#<sys-apps/flatpak-1.13
-gnome-extra/gnome-software

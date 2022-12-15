@@ -8,14 +8,15 @@ x11-libs/vte python
 #x11-drivers/nvidia-drivers compat 
 #dev-libs/jansson abi_x86_32
 
+# PYTHON PB VERSION
+#x11-terms/guake python_targets_python3_7
+#media-video/obs-studio python_single_target_python3_7
+
+
 # KERNEL
 
 # Firefox
-#www-client/firefox pulseaudio -bindist
-
-# Chromium
-sys-libs/zlib minizip
-net-libs/nodejs inspector
+www-client/firefox -bindist
 
 # LAMP
 app-eselect/eselect-php apache2
@@ -35,18 +36,18 @@ app-admin/rsyslog openssl
 net-misc/remmina rdp vnc
 
 # THUNDERBIRD
-# mail-client/thunderbird -linguas_* linguas_fr
 media-libs/libvpx postproc
 dev-db/sqlite secure-delete
 
 # FFMPEG
 # NVENC (Encodage NVidia) CHROMIUM (Chromium) et xcb (peek) et VAAPI HW AMD
-media-video/ffmpeg vorbis vpx x264 x265 xvid chromium xcb vaapi
+media-video/ffmpeg vorbis vpx x264 x265 xvid chromium xcb vaapi vulkan libass
+media-video/ffmpeg-chromium vaapi vulkan 
 ## VAAPI + VULKAN
-media-libs/mesa vaapi vulkan
+media-libs/mesa vaapi vulkan 
 
-# move x11-libs/libva media-libs/libva
->=media-libs/libva-2.13.0-r1 abi_x86_32
+# peek
+>=media-libs/freetype-2.11.0-r1 harfbuzz
 
 
 # SCREEN
@@ -60,15 +61,8 @@ app-admin/sudo offensive
 #dev-libs/libxml2 python
 #app-arch/rpm lua python
 
-#LANGUES
-#app-text/hunspell -linguas_* linguas_fr
-#app-text/aspell -linguas_* linguas_fr
-
 #RKHUNTER
 sys-process/lsof rpc
-
-#VMWARE
-app-emulation/vmware-modules vmci vsock
 
 # GVFS
 gnome-base/gvfs samba mtp nfs
@@ -92,9 +86,6 @@ kde-frameworks/kitemmodels qml
 # cool-retro-term
 dev-qt/qtdeclarative localstorage
 
-# THEME ARC POUR MATE
-x11-themes/arc-theme mate
-
 # OBS + nvenc
 media-video/obs-studio browser pipewire
 
@@ -110,10 +101,6 @@ dev-qt/qtscript scripttools
 
 # Teamspeak
 dev-qt/qtwebengine widgets jumbo-build
-
-# GStreamer 
-# pb d'écran rose avec MP4 et Totem à cause de vaapi
-media-plugins/gst-plugins-meta -vaapi
 
 # GNOME TEST
 gnome-base/gnome-shell -bluetooth
@@ -181,3 +168,22 @@ dev-qt/qtquickcontrols2 widgets
 >=sys-libs/libxcrypt-4.4.25 abi_x86_32
 
 >=media-sound/lame-3.100-r3 abi_x86_32
+
+# required by dev-libs/glib-2.74.1-r1::gentoo
+# required by gnome-base/dconf-editor-43.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre2-10.40 abi_x86_32
+# required by dev-libs/atk-2.46.0::gentoo
+# required by gnome-base/gnome-shell-42.5-r2::gentoo
+# required by gnome-base/gdm-43.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-accessibility/at-spi2-core-2.46.0 abi_x86_32
+
+# required by app-accessibility/at-spi2-core-2.46.0::gentoo[X]
+# required by www-client/librewolf-106.0.5_p1::librewolf
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libXtst-1.2.3-r2 abi_x86_32
+
