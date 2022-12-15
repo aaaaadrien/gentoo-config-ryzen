@@ -135,3 +135,16 @@ dev-lang/rust abi_x86_32
 #>=media-libs/opus-1.3.1-r2 abi_x86_32
 >=sys-libs/libcap-2.49-r1 abi_x86_32
 
+
+app-arch/zstd abi_x86_32
+dev-util/wayland-scanner abi_x86_32
+dev-util/sysprof-capture abi_x86_32
+media-libs/vulkan-loader abi_x86_32
+dev-util/vulkan-tools abi_x86_32
+>=media-libs/libglvnd-1.3.4 abi_x86_32
+>=virtual/libcrypt-2 abi_x86_32
+>=sys-libs/libxcrypt-4.4.25 abi_x86_32
+>=media-sound/lame-3.100-r3 abi_x86_32
+>=dev-libs/libpcre2-10.40 abi_x86_32
+>=app-accessibility/at-spi2-core-2.46.0 abi_x86_32
+>=x11-libs/libXtst-1.2.3-r2 abi_x86_32

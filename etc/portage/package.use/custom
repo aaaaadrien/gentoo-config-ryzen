@@ -112,16 +112,8 @@ media-libs/libsdl2 haptic gles2
 # abcde 
 sys-apps/file -python
 
-# 32bits zstd
-app-arch/zstd abi_x86_32
-
 # Flatpak
 dev-util/ostree curl
-
-#kdenlive
-dev-util/wayland-scanner abi_x86_32
-# Brasero
-dev-util/sysprof-capture abi_x86_32
 
 # breeze-gtk
 kde-frameworks/kconfig qml
@@ -141,49 +133,5 @@ media-video/obs-studio browser v4l
 #simple-scan
 x11-misc/colord vala
 
-# lutris
-media-libs/vulkan-loader abi_x86_32
-dev-util/vulkan-tools abi_x86_32
-
 # cool-retro-term
 dev-qt/qtquickcontrols2 widgets
-
-# Divers 
-# required by media-libs/mesa-21.2.5::gentoo
-# required by media-libs/libepoxy-1.5.9-r1::gentoo[egl]
-# required by app-office/libreoffice-7.1.5.2::gentoo
-# required by @selected
-# required by @world (argument)
->=media-libs/libglvnd-1.3.4 abi_x86_32
-# required by sys-libs/pam-1.5.1_p20210622-r1::gentoo
-# required by sys-apps/shadow-4.9-r3::gentoo[pam]
-# required by net-misc/openssh-8.6_p1-r2::gentoo
-# required by @__auto_slot_operator_replace_installed__ (argument)
->=virtual/libcrypt-2 abi_x86_32
-# required by virtual/libcrypt-2::gentoo
-# required by sys-libs/pam-1.5.1_p20210622-r1::gentoo
-# required by sys-apps/shadow-4.9-r3::gentoo[pam]
-# required by net-misc/openssh-8.6_p1-r2::gentoo
-# required by @__auto_slot_operator_replace_installed__ (argument)
->=sys-libs/libxcrypt-4.4.25 abi_x86_32
-
->=media-sound/lame-3.100-r3 abi_x86_32
-
-# required by dev-libs/glib-2.74.1-r1::gentoo
-# required by gnome-base/dconf-editor-43.0::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-libs/libpcre2-10.40 abi_x86_32
-# required by dev-libs/atk-2.46.0::gentoo
-# required by gnome-base/gnome-shell-42.5-r2::gentoo
-# required by gnome-base/gdm-43.0::gentoo
-# required by @selected
-# required by @world (argument)
->=app-accessibility/at-spi2-core-2.46.0 abi_x86_32
-
-# required by app-accessibility/at-spi2-core-2.46.0::gentoo[X]
-# required by www-client/librewolf-106.0.5_p1::librewolf
-# required by @selected
-# required by @world (argument)
->=x11-libs/libXtst-1.2.3-r2 abi_x86_32
-
