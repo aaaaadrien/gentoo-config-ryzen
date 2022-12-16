@@ -6,6 +6,7 @@
 
 # Telegram
 net-im/telegram-desktop-bin
+net-im/telegram-desktop
 
 # Discord
 net-im/discord-bin
