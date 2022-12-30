@@ -53,6 +53,9 @@ app-crypt/nwipe
 # Guake
 x11-terms/guake
 
+# Gnome Console
+gui-apps/gnome-console
+
 # Nero
 app-cdr/nero
 

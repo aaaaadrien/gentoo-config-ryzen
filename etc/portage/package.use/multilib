@@ -1,4 +1,4 @@
-# required by steam-launcher (argument)
+# Nécessaire pour STEAM et après c'est a cause des dépendances de dépendances
 app-arch/bzip2 abi_x86_32
 dev-db/sqlite abi_x86_32
 dev-libs/atk abi_x86_32
@@ -11,6 +11,7 @@ dev-libs/icu abi_x86_32
 dev-libs/libcroco abi_x86_32
 dev-libs/libffi abi_x86_32
 dev-libs/libpcre abi_x86_32
+dev-libs/libpcre2 abi_x86_32
 dev-libs/libpthread-stubs abi_x86_32
 dev-libs/libtasn1 abi_x86_32
 dev-libs/libunistring abi_x86_32
@@ -109,4 +110,4 @@ x11-libs/libXtst abi_x86_32
 app-accessibility/at-spi2-core abi_x86_32
 dev-libs/libbsd abi_x86_32
 app-crypt/libmd abi_x86_32
-
+dev-util/sysprof-capture abi_x86_32

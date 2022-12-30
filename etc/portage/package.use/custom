@@ -26,8 +26,10 @@ dev-lang/php  apache2 mysql cgi pam ssl xml mysqli pdo sqlite xmlreader xmlwrite
 dev-lang/perl ithreads
 
 # COMPRESSION MULTITHREAD
-app-arch/lbzip2 symlink
-app-arch/pigz symlink
+#app-arch/lbzip2 symlink
+#app-arch/pigz symlink
+app-alternatives/bzip2 -reference lbzip2
+app-alternatives/gzip -reference pigz
 
 # rsyslog
 app-admin/rsyslog openssl
@@ -49,6 +51,8 @@ media-libs/mesa vaapi vulkan
 # peek
 >=media-libs/freetype-2.11.0-r1 harfbuzz
 
+# GNOME Terminal dans Nautilus
+x11-terms/gnome-terminal nautilus 
 
 # SCREEN
 app-misc/screen multiuser

@@ -38,8 +38,8 @@ app-shells/ksh
 app-text/fbreader
 app-text/wgetpaste
 dev-java/openjdk
-dev-lang/python:2.7
 dev-perl/Tk
+dev-util/android-tools
 dev-util/scons
 dev-util/shellcheck-bin
 dev-vcs/git
@@ -54,6 +54,7 @@ gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 gnome-extra/gnome-weather
 gnome-extra/nm-applet
+gui-apps/gnome-console
 kde-apps/kdenlive
 kde-plasma/breeze-gtk
 mail-client/evolution
