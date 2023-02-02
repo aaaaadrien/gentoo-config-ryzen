@@ -9,7 +9,8 @@ net-im/telegram-desktop-bin
 net-im/telegram-desktop
 
 # Discord
-net-im/discord-bin
+# move net-im/discord-bin net-im/discord
+net-im/discord
 
 # Steam
 games-util/steam-launcher
@@ -25,12 +26,6 @@ dev-util/kbuild ~amd64
 # Firefox Dernière version
 dev-libs/nss
 www-client/firefox
-
-# Librewolf
-www-client/librewolf
-
-# Skype
-net-im/skypeforlinux
 
 # KSH
 app-shells/ksh
@@ -56,18 +51,14 @@ x11-terms/guake
 # Gnome Console
 gui-apps/gnome-console
 
+# yt-dlp
+net-misc/yt-dlp
+
 # Nero
 app-cdr/nero
 
 # OBS
 media-video/obs-studio
-
-# KDENLIVE
-#<kde-apps/kdenlive-19.10
-# FREI0R => 1.5.0 = memory leak
-# media-plugins/frei0r-plugins
-# < mlt 6.10.0 = memory leak + pb son
-# media-libs/mlt
 
 # neofetch
 app-misc/neofetch
@@ -96,4 +87,6 @@ media-gfx/flameshot
 app-text/wgetpaste
 
 # ZZZ TEST
+# Fix glitch menu contextuel
+=gui-libs/gtk-4.8.3
 #=app-portage/pamageli-9999 **

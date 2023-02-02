@@ -111,3 +111,4 @@ app-accessibility/at-spi2-core abi_x86_32
 dev-libs/libbsd abi_x86_32
 app-crypt/libmd abi_x86_32
 dev-util/sysprof-capture abi_x86_32
+net-libs/nghttp2 abi_x86_32
