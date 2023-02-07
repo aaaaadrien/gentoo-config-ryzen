@@ -107,7 +107,6 @@ net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/sshfs
 net-im/discord
-net-im/skypeforlinux
 net-im/telegram-desktop-bin
 net-misc/anydesk
 net-misc/chrony
