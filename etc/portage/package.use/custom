@@ -69,7 +69,7 @@ app-admin/sudo offensive
 sys-process/lsof rpc
 
 # GVFS
-gnome-base/gvfs samba mtp nfs
+gnome-base/gvfs samba mtp nfs archive
 
 # GCC
 #sys-devel/gcc gcj

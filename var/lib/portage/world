@@ -45,7 +45,6 @@ dev-util/android-tools
 dev-util/scons
 dev-util/shellcheck-bin
 dev-vcs/git
-games-util/steam-launcher
 gnome-base/dconf-editor
 gnome-base/gdm
 gnome-base/gnome-light
@@ -143,7 +142,6 @@ sys-kernel/gentoo-sources:5.10.149
 sys-kernel/gentoo-sources:5.10.150
 sys-kernel/gentoo-sources:5.10.163
 sys-kernel/linux-firmware
-sys-process/btop
 sys-process/cronie
 sys-process/glances
 sys-process/htop
@@ -164,4 +162,3 @@ x11-terms/cool-retro-term
 x11-terms/guake
 x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
-x11-themes/papirus-icon-theme

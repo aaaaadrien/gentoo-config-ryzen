@@ -102,6 +102,8 @@ then
 fi
 
 
+flatpak list --app --columns=application > flatpak.list
+
 
 git add *
 git commit -m "Mise à jour de la configutaion de Gentoo le $jour à $heure"
