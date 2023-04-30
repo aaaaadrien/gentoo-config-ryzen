@@ -46,7 +46,7 @@ dev-db/sqlite secure-delete
 media-video/ffmpeg vorbis vpx x264 x265 xvid chromium xcb vaapi vulkan libass
 media-video/ffmpeg-chromium vaapi vulkan 
 ## VAAPI + VULKAN
-media-libs/mesa vaapi vulkan 
+media-libs/mesa vaapi vulkan opencl
 
 # peek
 >=media-libs/freetype-2.11.0-r1 harfbuzz

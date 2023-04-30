@@ -1,4 +1,4 @@
 # Mixxx
 # https://bugs.gentoo.org/767838
 #=dev-util/scons-4.1.0-r1
->sys-kernel/gentoo-sources-5.11
+>sys-kernel/gentoo-sources-5.16

@@ -86,6 +86,11 @@ media-gfx/flameshot
 # wgetpaste
 app-text/wgetpaste
 
+# AMD PRO
+media-libs/amdgpu-pro-vulkan
+dev-libs/amdgpu-pro-opencl
+media-video/amdgpu-pro-amf
+
 # ZZZ TEST
 # Fix glitch menu contextuel
 =gui-libs/gtk-4.8.3
