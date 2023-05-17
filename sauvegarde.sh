@@ -30,6 +30,19 @@ do
 done
 
 
+chemin="etc/portage/patches"
+if [ -d "/$chemin" ]
+then
+        echo "On sauvegarde les fichiers perso env ..."
+        if [ -d $chemin ]
+        then
+                rsync -a --delete "/$chemin/" "$chemin/"
+        else
+                mkdir -p "$chemin"
+                rsync -a --delete "/$chemin/" "$chemin/"
+        fi
+fi
+
 chemin="etc/portage/env"
 if [ -d "/$chemin" ]
 then
@@ -42,6 +55,7 @@ then
                 rsync -a --delete "/$chemin/" "$chemin/"
         fi
 fi
+
 
 chemin="etc/portage/"
 fic="make.conf"

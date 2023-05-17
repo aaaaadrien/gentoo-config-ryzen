@@ -139,3 +139,6 @@ x11-misc/colord vala
 
 # cool-retro-term
 dev-qt/qtquickcontrols2 widgets
+
+# Audacity 3.2+
+dev-libs/libpcre2 pcre32
