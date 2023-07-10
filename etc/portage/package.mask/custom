@@ -1,4 +1,2 @@
-# Mixxx
-# https://bugs.gentoo.org/767838
-#=dev-util/scons-4.1.0-r1
->sys-kernel/gentoo-sources-5.16
+# Kernel to keep 6.1 LTS. Note fsync added to 5.16
+>sys-kernel/gentoo-sources-6.2

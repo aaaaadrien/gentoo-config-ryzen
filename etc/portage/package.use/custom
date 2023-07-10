@@ -106,9 +106,12 @@ dev-qt/qtscript scripttools
 # Teamspeak
 dev-qt/qtwebengine widgets jumbo-build
 
-# GNOME TEST
-gnome-base/gnome-shell -bluetooth
-gnome-base/gnome-core-apps -bluetooth
+# GNOME custom
+gnome-base/gnome-shell -bluetooth #Pas besoin
+gnome-base/gnome-core-apps -bluetooth #Pas besoin
+x11-wm/mutter screencast 
+kde-frameworks/sonnet qml # QGnomePlatform
+
 
 # WINE
 media-libs/libsdl2 haptic gles2

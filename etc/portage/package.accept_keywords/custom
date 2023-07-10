@@ -51,9 +51,6 @@ x11-terms/guake
 # Gnome Console
 gui-apps/gnome-console
 
-# yt-dlp
-net-misc/yt-dlp
-
 # Nero
 app-cdr/nero
 
@@ -86,13 +83,19 @@ media-gfx/flameshot
 # wgetpaste
 app-text/wgetpaste
 
+# Mixxx
+media-sound/mixxx
+
 # AMD PRO
-media-libs/amdgpu-pro-vulkan
-dev-libs/amdgpu-pro-opencl
-media-video/amdgpu-pro-amf
+#media-libs/amdgpu-pro-vulkan
+#dev-libs/amdgpu-pro-opencl
+#media-video/amdgpu-pro-amf
 
 # ZZZ TEST
 # Fix glitch menu contextuel
 =gui-libs/gtk-4.8.3
 #=app-portage/pamageli-9999 **
 =x11-wm/mutter-44.1-r1
+# fix bugs gnome rapidement
+=gnome-base/gnome-shell-44.2
+=x11-wm/mutter-44.2

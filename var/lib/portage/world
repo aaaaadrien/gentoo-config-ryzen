@@ -1,6 +1,7 @@
 app-admin/cpulimit
 app-admin/eclean-kernel
 app-admin/keepassxc
+app-admin/logrotate
 app-admin/rsyslog
 app-admin/sudo
 app-admin/testdisk
@@ -26,6 +27,7 @@ app-emulation/virtualbox-extpack-oracle
 app-emulation/virtualbox-modules
 app-eselect/eselect-repository
 app-misc/neofetch
+app-misc/resolve-march-native
 app-misc/screen
 app-office/libreoffice
 app-office/onlyoffice-bin
@@ -52,6 +54,7 @@ gnome-base/gnome-light
 gnome-extra/evolution-ews
 gnome-extra/gnome-shell-extension-appindicator
 gnome-extra/gnome-shell-extension-dash-to-dock
+gnome-extra/gnome-shell-extensions
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 gnome-extra/gnome-weather
@@ -60,7 +63,6 @@ gui-apps/gnome-console
 kde-apps/kdenlive
 kde-plasma/breeze-gtk
 mail-client/evolution
-mail-client/thunderbird
 media-fonts/droid
 media-fonts/libertine
 media-fonts/noto
@@ -120,6 +122,7 @@ net-misc/remmina
 net-misc/wakeonlan
 net-misc/yt-dlp
 sci-calculators/galculator
+sys-apps/dstat
 sys-apps/flatpak
 sys-apps/gnome-disk-utility
 sys-apps/gptfdisk
@@ -137,14 +140,15 @@ sys-boot/grub
 sys-fs/dosfstools
 sys-fs/exfatprogs
 sys-fs/f2fs-tools
+sys-fs/fuse:0
 sys-fs/lvm2
 sys-fs/ncdu
 sys-fs/ntfs3g
 sys-kernel/dracut
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:5.10.150
-sys-kernel/gentoo-sources:5.10.163
 sys-kernel/gentoo-sources:5.15.102
+sys-kernel/gentoo-sources:6.1.28
+sys-kernel/gentoo-sources:6.1.31
 sys-kernel/linux-firmware
 sys-process/cronie
 sys-process/glances
