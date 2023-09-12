@@ -42,14 +42,17 @@ media-libs/libvpx postproc
 dev-db/sqlite secure-delete
 
 # FFMPEG
-# NVENC (Encodage NVidia) CHROMIUM (Chromium) et xcb (peek) et VAAPI HW AMD
-media-video/ffmpeg vorbis vpx x264 x265 xvid chromium xcb vaapi vulkan libass
+# NVENC (Encodage NVidia) CHROMIUM (Chromium) et xcb (peek) et VAAPI HW AMD et opus (obs)
+media-video/ffmpeg vorbis vpx x264 x265 xvid chromium xcb vaapi vulkan libass opus
 media-video/ffmpeg-chromium vaapi vulkan 
 ## VAAPI + VULKAN
 media-libs/mesa vaapi vulkan opencl
 
 # peek
 >=media-libs/freetype-2.11.0-r1 harfbuzz
+
+# GIMP
+media-gfx/gimp heif
 
 # GNOME Terminal dans Nautilus
 x11-terms/gnome-terminal nautilus 
@@ -145,3 +148,8 @@ dev-qt/qtquickcontrols2 widgets
 
 # Audacity 3.2+
 dev-libs/libpcre2 pcre32
+
+# Necessaire pour bindgen > mesa > xwayland > mutter > gnome-light 
+virtual/rust rustfmt
+dev-lang/rust rustfmt
+

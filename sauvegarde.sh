@@ -115,6 +115,21 @@ then
 	fi
 fi
 
+chemin="etc/default/"
+fic="grub"
+if [ -f "/$chemin/$fic" ]
+then
+        echo "On sauvegarde la conf grub..."
+        if [ -f $chemin/$fic ]
+        then
+                cp "/$chemin/$fic" "$chemin/$fic"
+        else
+                mkdir -p "$chemin"
+                cp "/$chemin/$fic" "$chemin/$fic"
+        fi
+fi
+
+
 
 flatpak list --app --columns=application > flatpak.list
 

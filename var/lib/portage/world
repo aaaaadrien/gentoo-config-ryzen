@@ -46,6 +46,7 @@ dev-java/openjdk
 dev-perl/Tk
 dev-util/android-tools
 dev-util/scons
+dev-util/shc
 dev-util/shellcheck-bin
 dev-vcs/git
 gnome-base/dconf-editor
@@ -121,6 +122,7 @@ net-misc/networkmanager
 net-misc/remmina
 net-misc/wakeonlan
 net-misc/yt-dlp
+net-p2p/qbittorrent
 sci-calculators/galculator
 sys-apps/dstat
 sys-apps/flatpak
@@ -147,8 +149,8 @@ sys-fs/ntfs3g
 sys-kernel/dracut
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:5.15.102
-sys-kernel/gentoo-sources:6.1.28
-sys-kernel/gentoo-sources:6.1.31
+sys-kernel/gentoo-sources:6.1.38
+sys-kernel/gentoo-sources:6.1.46
 sys-kernel/linux-firmware
 sys-process/cronie
 sys-process/glances
