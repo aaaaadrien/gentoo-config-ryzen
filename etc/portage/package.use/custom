@@ -1,3 +1,6 @@
+# Reinstall
+# media-libs/libsndfile minimal
+
 # GUAKE
 x11-libs/vte python
 
@@ -7,11 +10,6 @@ x11-libs/vte python
 #x11-misc/primus abi_x86_32
 #x11-drivers/nvidia-drivers compat 
 #dev-libs/jansson abi_x86_32
-
-# PYTHON PB VERSION
-#x11-terms/guake python_targets_python3_7
-#media-video/obs-studio python_single_target_python3_7
-
 
 # KERNEL
 
@@ -43,7 +41,7 @@ dev-db/sqlite secure-delete
 
 # FFMPEG
 # NVENC (Encodage NVidia) CHROMIUM (Chromium) et xcb (peek) et VAAPI HW AMD et opus (obs)
-media-video/ffmpeg vorbis vpx x264 x265 xvid chromium xcb vaapi vulkan libass opus
+media-video/ffmpeg vorbis vpx x264 x265 xvid chromium xcb vaapi vulkan libass opus theora openh264
 media-video/ffmpeg-chromium vaapi vulkan 
 ## VAAPI + VULKAN
 media-libs/mesa vaapi vulkan opencl
@@ -108,6 +106,9 @@ dev-qt/qtscript scripttools
 
 # Teamspeak
 dev-qt/qtwebengine widgets jumbo-build
+
+# Teamviewer
+sys-libs/zlib minizip
 
 # GNOME custom
 gnome-base/gnome-shell -bluetooth #Pas besoin

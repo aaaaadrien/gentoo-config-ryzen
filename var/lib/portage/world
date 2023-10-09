@@ -26,7 +26,7 @@ app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
 app-emulation/virtualbox-modules
 app-eselect/eselect-repository
-app-misc/neofetch
+app-misc/fastfetch
 app-misc/resolve-march-native
 app-misc/screen
 app-office/libreoffice
@@ -38,7 +38,6 @@ app-portage/portage-utils
 app-shells/bash-completion
 app-shells/gentoo-bashcomp
 app-shells/ksh
-app-shells/pwsh-bin
 app-text/fbreader
 app-text/wgetpaste
 dev-db/mariadb
@@ -53,6 +52,8 @@ gnome-base/dconf-editor
 gnome-base/gdm
 gnome-base/gnome-light
 gnome-extra/evolution-ews
+gnome-extra/gnome-calculator
+gnome-extra/gnome-calendar
 gnome-extra/gnome-shell-extension-appindicator
 gnome-extra/gnome-shell-extension-dash-to-dock
 gnome-extra/gnome-shell-extensions
@@ -61,6 +62,7 @@ gnome-extra/gnome-tweaks
 gnome-extra/gnome-weather
 gnome-extra/nm-applet
 gui-apps/gnome-console
+gui-libs/xdg-desktop-portal-wlr
 kde-apps/kdenlive
 kde-plasma/breeze-gtk
 mail-client/evolution
@@ -91,7 +93,6 @@ media-sound/pavucontrol
 media-sound/pulseaudio
 media-sound/soundconverter
 media-sound/sox
-media-sound/spotify
 media-sound/vorbisgain
 media-video/cheese
 media-video/ffmpegthumbnailer
@@ -120,10 +121,10 @@ net-misc/netifrc
 net-misc/netkit-telnetd
 net-misc/networkmanager
 net-misc/remmina
+net-misc/teamviewer
 net-misc/wakeonlan
 net-misc/yt-dlp
 net-p2p/qbittorrent
-sci-calculators/galculator
 sys-apps/dstat
 sys-apps/flatpak
 sys-apps/gnome-disk-utility
@@ -132,6 +133,7 @@ sys-apps/inxi
 sys-apps/kexec-tools
 sys-apps/lm-sensors
 sys-apps/lshw
+sys-apps/memtest86+
 sys-apps/pciutils
 sys-apps/pv
 sys-apps/sg3_utils
@@ -152,9 +154,11 @@ sys-kernel/gentoo-sources:5.15.102
 sys-kernel/gentoo-sources:6.1.38
 sys-kernel/gentoo-sources:6.1.46
 sys-kernel/linux-firmware
+sys-process/at
 sys-process/cronie
 sys-process/glances
 sys-process/htop
+sys-process/iotop
 sys-process/lsof
 sys-process/nmon
 sys-process/nvtop

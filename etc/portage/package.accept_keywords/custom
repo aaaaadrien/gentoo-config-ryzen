@@ -57,15 +57,16 @@ app-cdr/nero
 # OBS
 media-video/obs-studio
 
-# neofetch
-app-misc/neofetch
+# fastfetch
+app-misc/fastfetch
+dev-libs/yyjson
 
 # Spotify
 media-sound/spotify
 
 # Remmina
-net-misc/remmina
-net-misc/freerdp
+#net-misc/remmina
+#net-misc/freerdp
 
 # bpmdetect
 media-sound/bpmdetect
@@ -73,6 +74,9 @@ media-sound/bpmdetect
 # Anydesk
 net-misc/anydesk
 x11-libs/gtkglext
+
+#Teamviewer
+net-misc/teamviewer
 
 # peek
 media-video/peek
@@ -99,3 +103,4 @@ media-sound/mixxx
 # fix bugs gnome rapidement
 =gnome-base/gnome-shell-44.2
 =x11-wm/mutter-44.2
+=media-video/mplayer-1.5_p20230618
